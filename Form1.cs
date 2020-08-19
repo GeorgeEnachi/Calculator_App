@@ -19,6 +19,7 @@ namespace Calculator_App
         {
             InitializeComponent();
             formAbout = new FormAbout();
+            formCalculator = new FormCalculator();
             formAbout.Visible = false;
             formCalculator.Visible = false;
         }
