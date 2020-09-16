@@ -50,6 +50,11 @@
             this.numericUpDownTermen1.Name = "numericUpDownTermen1";
             this.numericUpDownTermen1.Size = new System.Drawing.Size(120, 20);
             this.numericUpDownTermen1.TabIndex = 0;
+            this.numericUpDownTermen1.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // numericUpDownTermen2
             // 

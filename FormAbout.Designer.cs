@@ -34,11 +34,12 @@
             // labelAbout
             // 
             this.labelAbout.AutoSize = true;
-            this.labelAbout.Location = new System.Drawing.Point(209, 55);
+            this.labelAbout.Location = new System.Drawing.Point(254, 55);
             this.labelAbout.Name = "labelAbout";
-            this.labelAbout.Size = new System.Drawing.Size(136, 13);
+            this.labelAbout.Size = new System.Drawing.Size(152, 39);
             this.labelAbout.TabIndex = 0;
-            this.labelAbout.Text = "informatii despre miniproiect";
+            this.labelAbout.Text = "Miniproiect - C\r\nalculator cu functii primare\r\nCreat de George, Bacau, 2020\r\n";
+            this.labelAbout.Click += new System.EventHandler(this.labelAbout_Click);
             // 
             // FormAbout
             // 

@@ -39,5 +39,15 @@ namespace Calculator_App
             else
                 formCalculator.Visible = true;
         }
+
+        private void ButtonAboutForm_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ButtonCalculatorForm_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

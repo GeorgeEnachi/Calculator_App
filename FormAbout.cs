@@ -16,5 +16,10 @@ namespace Calculator_App
         {
             InitializeComponent();
         }
+
+        private void labelAbout_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

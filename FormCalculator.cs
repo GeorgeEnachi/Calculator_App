@@ -54,8 +54,20 @@ namespace Calculator_App
             decimal termen1 = numericUpDownTermen1.Value;
             decimal termen2 = numericUpDownTermen2.Value;
 
-            decimal rezultat = termen1 / termen2;
-            textBoxRezultat.Text = rezultat.ToString();
+            try
+            {
+                decimal Rezultat = termen1 / termen2;
+                textBoxRezultat.Text = Rezultat.ToString();
+            }
+            catch (Exception)
+            {
+                string message = "Do not divide by 0";
+                string title = "Divide by 0";
+                MessageBox.Show(message, title);
+               
+            }
+
+
         }
     }
 }

@@ -16,5 +16,10 @@ namespace Calculator_App
         {
             InitializeComponent();
         }
+
+        private void FormAbout2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
